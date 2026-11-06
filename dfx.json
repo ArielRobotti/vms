@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "vms_backend": {
+    "backend": {
       "main": "src/vms_backend/main.mo",
       "type": "motoko"
     }
@@ -8,7 +8,7 @@
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
